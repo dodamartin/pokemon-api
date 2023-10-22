@@ -1,0 +1,143 @@
+/* App.css */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 20px;
+  height: 100vh;
+}
+
+.Header {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.Title {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.Main {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 5px;
+  
+}
+
+.SearchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.Input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 70%;
+  font-size: 1rem;
+  background-color: #f5f5f5;
+  outline: none;
+}
+
+.Button {
+  padding: 10px 20px;
+  background-color: #ff6600;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 5px;
+  transition: background-color 0.3s;
+}
+
+.Button:hover {
+  background-color: #ff5500;
+}
+
+.CurrentPokemonInfo {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.PokemonName {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+.PokemonImage {
+  max-width: 150px;
+  border: 2px solid #ff6600;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.Attributes {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 0;
+}
+
+.Attribute {
+  font-size: 1rem;
+}
+
+.AbilitiesTitle {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.AbilitiesList {
+  list-style: none;
+  padding: 0;
+}
+
+.Ability {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+/* Styles for the Evolution Chain container */
+.EvolutionChain {
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  border: 4px solid #f5f5f5;
+}
+
+/* Styles for the Evolution Title */
+.EvolutionTitle {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Styles for the individual Pokémon information */
+.PokemonInfo {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+/* Styles for the Pokémon name */
+.PokemonName {
+  font-size: 18px;
+  color: #ff6600;
+}
+
+/* Styles for the Pokémon image */
+.PokemonImage {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #ff6600;
+  border-radius: 50%;
+}
+
+
